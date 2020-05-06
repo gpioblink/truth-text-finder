@@ -1,0 +1,18 @@
+<html><head>
+<title>文字解析機</title>
+<meta charset="utf-8">
+</head>
+<body>
+    <form>
+        <label for="input">変換したい文字を入力:</label><br>
+        <textarea type="text" id="input" name="input" rows="4" cols="40"></textarea>
+        <input type="button" onclick="Convert()" value="変換"><br><br>
+
+        <label for="input">再変換先のコーディック:</label><br>
+        <select id="codec" name=”codec”></select><br><br>
+    
+        <label for="output">変換結果:</label><br>
+        <textarea type="text" id="output" name="output" rows="30" cols="80"></textarea>
+        <script src="app.js" charset="utf-8"></script>
+    </form>
+</body></html>
